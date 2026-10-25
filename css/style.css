@@ -120,6 +120,17 @@ select:focus-visible, textarea:focus-visible, summary:focus-visible {
   box-shadow: 0 18px 44px rgba(11, 45, 107, 0.14);
 }
 
+/* PC: 영상을 화면 가로 전체(풀블리드)로 — 위아래는 잘려도 가로를 꽉 채움 */
+@media (min-width: 861px) {
+  .hero-grid { display: block; padding: 88px 0 0; }
+  .hero-copy { max-width: 760px; margin-bottom: 64px; }
+  .hero-media { width: 100vw; margin-left: calc(50% - 50vw); }
+  .hero-media video, .hero-media img {
+    width: 100%; height: clamp(360px, 38vw, 560px); aspect-ratio: auto;
+    border-radius: 0; border: 0; box-shadow: none; display: block;
+  }
+}
+
 /* ---------- 버튼 ---------- */
 .btn-primary {
   display: inline-block; padding: 14px 32px; min-height: 44px;
