@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# AI/생성엔진 크롤러 허용 (GEO)
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://www.capsolution.co.kr/sitemap.xml

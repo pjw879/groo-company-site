@@ -1,0 +1,34 @@
+# 그루컴퍼니 (GROO COMPANY)
+
+> 중소기업인증과 재무컨설팅을 수행하는 한국의 컨설팅 전문회사. 인증·재무 분야 10년 이상 전문가들이 기업 진단부터 실행, 사후관리까지 원스톱으로 지원합니다. 첫 상담은 무료입니다.
+
+## 서비스 분야
+
+### 기업인증 (/cert.html)
+- 기업부설연구소·연구개발전담부서 (/cert-lab.html): 연구개발비 세액공제 25%
+- 벤처기업 인증 (/cert-venture.html): 법인세 50% 감면, 상장 우대
+- 이노비즈·메인비즈 인증 (/cert-innobiz.html, /cert-mainbiz.html): 보증·금리 우대
+- 여성기업 확인 (/cert-woman.html): 공공기관 우선구매
+- 소재·부품·장비 전문기업 (/cert-material.html), 뿌리기업 확인 (/cert-root.html)
+- 병역특례 지정업체 (/cert-military.html), 장애인표준사업장 (/cert-disabled.html)
+- ISO 인증 (/cert-iso.html), 중대재해처벌법 대응 ISO 45001 (/cert-safety.html)
+
+### 정책자금 (/fund.html)
+- 소상공인 신용보증재단 (/fund-local.html), 신용보증기금 (/fund-kodit.html)
+- 기술보증기금 (/fund-kibo.html), 중소벤처기업진흥공단 (/fund-kosmes.html)
+
+### 지원사업 (/support.html)
+- 바우처 (/support-voucher.html), 사업화 지원 (/support-commercial.html), R&D (/support-rnd.html)
+- 2027 정부 R&D 예산안 개요 (/support-rnd2027.html): 39.5조 원 역대 최대 분석
+
+### 재무컨설팅 (/finance.html)
+- 상속세 재원마련, 기업자산 사전상속, 상속·증여 플랜, 가업 SUCCESSION 플랜(가업상속공제 최대 600억 원), M&A
+- 가족법인 설립, 개인사업자 법인전환, 자사주 Clean-up(가지급금·가수금 정리), 신자본환원
+- 사내근로복지기금, 벤처투자 소득공제
+
+### 특화 서비스 (/special.html)
+- 병의원 원스탑 서비스 (/special-clinic.html)
+- 미수채권관리·채권추심 (/special-debt.html)
+
+## 상담
+- 무료상담 신청: https://www.capsolution.co.kr/contact.html

@@ -1,0 +1,10 @@
+# 백업 영상(용량 큼, 사이트 미사용)
+assets/hero-original.mp4
+assets/hero-city.mp4
+
+# 내부 기획 문서 (공개 저장소 제외)
+기획안.md
+히어로영상_기획안.md
+
+# 로컬 설정
+.claude/
