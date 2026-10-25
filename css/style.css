@@ -6,8 +6,8 @@
   --ink-soft: #6F5B4D;
   --navy: #1A56DB;
   --navy-deep: #123E9E;
-  --accent: #C2410C;
-  --accent-soft: #FDE7DC;
+  --accent: #1A56DB;
+  --accent-soft: #E7EEFB;
   --gold: #F15A24;
   --gold-bright: #FFD2BC;
   --line: #e7e5df;
@@ -293,7 +293,7 @@ button.btn-ghost { cursor: pointer; }
 .svc ul.check li::before {
   content: ""; position: absolute; left: 0; top: 7px; width: 15px; height: 15px;
   border-radius: 50%; background: var(--accent-soft);
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='M4 8.5l2.5 2.5L12 5.5' stroke='%23C2410C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='M4 8.5l2.5 2.5L12 5.5' stroke='%231A56DB' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
   background-size: 11px; background-position: center; background-repeat: no-repeat;
 }
 .svc-aside {
