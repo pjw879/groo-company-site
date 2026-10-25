@@ -44,7 +44,7 @@ ul { list-style: none; }
   height: 72px;
 }
 .logo { display: flex; align-items: center; gap: 9px; }
-.logo-symbol { width: 28px; height: 25px; flex-shrink: 0; }
+.logo-symbol { width: 26px; height: 26px; flex-shrink: 0; }
 .logo strong { font-size: 19px; font-weight: 800; color: var(--navy); letter-spacing: -0.5px; }
 .logo span { font-size: 10.5px; color: var(--accent); font-weight: 700; letter-spacing: 0.08em; }
 
