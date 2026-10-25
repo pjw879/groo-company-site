@@ -11,4 +11,4 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-Sitemap: https://www.capsolution.co.kr/sitemap.xml
+Sitemap: https://www.pro-nex.co.kr/sitemap.xml

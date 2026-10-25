@@ -10,3 +10,7 @@ ci/
 
 # 로컬 설정
 .claude/
+
+# 배포 산출물
+deploy.zip
+upload.ps1
