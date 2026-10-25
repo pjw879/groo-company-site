@@ -555,6 +555,26 @@ button.btn-ghost { cursor: pointer; }
 
 .expert-sub { margin: 56px 0 20px; font-size: 20px; font-weight: 700; color: var(--navy); }
 
+/* ---------- CI 소개 페이지 ---------- */
+.swatch-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
+.swatch { border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: #fff; }
+.swatch .chip { height: 92px; }
+.swatch .info { padding: 14px 16px; }
+.swatch .info strong { display: block; font-size: 14px; color: var(--navy); }
+.swatch .info code { font-size: 12.5px; color: var(--ink-soft); font-family: inherit; }
+.swatch .info span { display: block; font-size: 12.5px; color: var(--ink-soft); margin-top: 4px; }
+.ci-quote {
+  background: var(--navy); color: #fff; border-radius: var(--radius);
+  padding: 48px 40px; text-align: center;
+  font-size: clamp(18px, 2.2vw, 24px); font-weight: 700; line-height: 1.6;
+}
+.ci-quote em { font-style: normal; color: #FF9A4D; }
+.ci-logo-showcase {
+  background: var(--soft); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 56px 32px; display: flex; align-items: center; justify-content: center;
+}
+.ci-logo-showcase img { max-height: 110px; width: auto; }
+
 /* ---------- Reveal ---------- */
 .reveal { opacity: 0; transform: translateY(22px); transition: opacity 0.6s ease, transform 0.6s ease; }
 .reveal.in { opacity: 1; transform: none; }
@@ -612,6 +632,7 @@ button.btn-ghost { cursor: pointer; }
   .svc-grid { gap: 28px; }
   .cta-inner { padding: 56px 20px; }
   .xp-grid, .doc-grid, .note-duo { grid-template-columns: 1fr; }
+  .swatch-grid { grid-template-columns: repeat(2, 1fr); }
   .flow, .flow.four-step { grid-template-columns: 1fr; gap: 20px; }
   .flow .f { display: grid; grid-template-columns: 44px 1fr; gap: 14px; text-align: left; padding: 0; align-items: start; }
   .flow .f::before { margin: 0; }
