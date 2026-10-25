@@ -120,15 +120,31 @@ select:focus-visible, textarea:focus-visible, summary:focus-visible {
   box-shadow: 0 18px 44px rgba(11, 45, 107, 0.14);
 }
 
-/* PC: 영상을 화면 가로 전체(풀블리드)로 — 위아래는 잘려도 가로를 꽉 채움 */
+/* PC: 영상 풀블리드(원본 비율, 잘림 없음) + 헤드라인 오버레이 */
 @media (min-width: 861px) {
-  .hero-grid { display: block; padding: 88px 0 0; }
-  .hero-copy { max-width: 760px; margin-bottom: 64px; }
-  .hero-media { width: 100vw; margin-left: calc(50% - 50vw); }
+  .hero { border-bottom: 0; background: var(--navy-deep); }
+  .hero-grid { position: relative; display: block; padding: 0; }
+  .hero-media { position: relative; width: 100vw; margin-left: calc(50% - 50vw); }
   .hero-media video, .hero-media img {
-    width: 100%; height: clamp(360px, 38vw, 560px); aspect-ratio: auto;
+    width: 100%; height: auto; aspect-ratio: auto;
     border-radius: 0; border: 0; box-shadow: none; display: block;
   }
+  .hero-media::after {
+    content: ""; position: absolute; inset: 0;
+    background: linear-gradient(to right, rgba(8, 31, 77, 0.82) 0%, rgba(8, 31, 77, 0.45) 48%, rgba(8, 31, 77, 0.06) 100%);
+  }
+  .hero-copy {
+    position: absolute; left: 0; top: 50%; transform: translateY(-50%);
+    z-index: 2; max-width: 640px; margin-bottom: 0;
+  }
+  .hero-eyebrow { color: var(--gold-bright); }
+  .hero h1 { color: #fff; }
+  .hero h1 em { color: #FF9A4D; }
+  .hero-sub { color: rgba(255, 255, 255, 0.93); }
+  .hero-actions .btn-outline {
+    background: transparent; color: #fff; border-color: rgba(255, 255, 255, 0.55);
+  }
+  .hero-actions .btn-outline:hover { background: rgba(255, 255, 255, 0.12); color: #fff; border-color: #fff; }
 }
 
 /* ---------- 버튼 ---------- */
