@@ -8,8 +8,8 @@
   --navy-deep: #123E9E;
   --accent: #1A56DB;
   --accent-soft: #E7EEFB;
-  --gold: #F15A24;
-  --gold-bright: #FFD2BC;
+  --gold: #1A56DB;
+  --gold-bright: #BFD3FF;
   --line: #e7e5df;
   --radius: 14px;
 }
@@ -115,12 +115,12 @@ ul { list-style: none; }
 .hero p { font-size: 18px; color: rgba(255, 255, 255, 0.96); margin-bottom: 36px; max-width: 32em; }
 .hero-actions { display: flex; gap: 12px; }
 .btn-primary {
-  display: inline-block; padding: 14px 32px; background: #ffffff; color: #D9480F;
+  display: inline-block; padding: 14px 32px; background: #ffffff; color: #1A56DB;
   font-weight: 800; font-size: 16px; border-radius: 999px; border: 2px solid var(--gold); cursor: pointer;
   box-shadow: 0 10px 24px rgba(16, 55, 140, 0.18);
   transition: background 0.2s, transform 0.1s;
 }
-.btn-primary:hover { background: #FFF1E8; }
+.btn-primary:hover { background: #EAF0FE; }
 .btn-primary:active { transform: scale(0.98); }
 .btn-ghost {
   display: inline-block; padding: 15px 32px; background: transparent; color: #fff;
@@ -176,7 +176,7 @@ ul { list-style: none; }
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
   padding: 22px 26px; transition: border-color 0.2s, box-shadow 0.2s;
 }
-.worry-card:hover { border-color: var(--accent); box-shadow: 0 10px 26px rgba(241, 90, 36, 0.12); }
+.worry-card:hover { border-color: var(--accent); box-shadow: 0 10px 26px rgba(26, 86, 219, 0.12); }
 .worry-card .q { font-size: 16.5px; font-weight: 600; }
 .worry-card .tag {
   flex-shrink: 0; font-size: 13px; font-weight: 700; color: var(--accent);
@@ -210,7 +210,7 @@ ul { list-style: none; }
 }
 .cert-card:hover {
   border-color: var(--accent); transform: translateY(-3px);
-  box-shadow: 0 14px 30px rgba(241, 90, 36, 0.14);
+  box-shadow: 0 14px 30px rgba(26, 86, 219, 0.14);
 }
 .cert-card h4 { font-size: 18px; font-weight: 800; color: var(--navy); margin-bottom: 8px; }
 .cert-card p { font-size: 14px; color: var(--ink-soft); margin-bottom: 14px; }
@@ -235,7 +235,7 @@ ul { list-style: none; }
 /* ---------- 서브페이지 ---------- */
 .page-hero {
   background:
-    radial-gradient(900px 360px at 88% -20%, rgba(241, 90, 36, 0.16), transparent 65%),
+    radial-gradient(900px 360px at 88% -20%, rgba(26, 86, 219, 0.16), transparent 65%),
     linear-gradient(120deg, var(--navy-deep), var(--navy));
   color: #fff; padding: 76px 0;
 }
@@ -309,7 +309,7 @@ button.btn-ghost { cursor: pointer; }
 }
 .svc-aside::after {
   content: ""; position: absolute; right: -60px; top: -60px; width: 190px; height: 190px;
-  border-radius: 50%; background: radial-gradient(circle, rgba(241, 90, 36, 0.14), transparent 70%);
+  border-radius: 50%; background: radial-gradient(circle, rgba(26, 86, 219, 0.14), transparent 70%);
   pointer-events: none;
 }
 .svc-aside h4 {
@@ -359,7 +359,7 @@ button.btn-ghost { cursor: pointer; }
   transition: border-color 0.15s, box-shadow 0.15s;
 }
 .form-row input:focus, .form-row select:focus, .form-row textarea:focus {
-  outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(241, 90, 36, 0.2);
+  outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(26, 86, 219, 0.2);
 }
 .form-row textarea { min-height: 120px; resize: vertical; }
 .form-agree { display: flex; align-items: center; gap: 8px; font-size: 13.5px; color: var(--ink-soft); margin-bottom: 24px; }
@@ -420,12 +420,12 @@ button.btn-ghost { cursor: pointer; }
 .floating-cta {
   position: fixed; right: 24px; bottom: 24px; z-index: 90;
   display: inline-flex; align-items: center; gap: 8px;
-  padding: 13px 24px; background: #ffffff; color: #D9480F; border: 2px solid var(--gold);
+  padding: 13px 24px; background: #ffffff; color: #1A56DB; border: 2px solid var(--gold);
   font-weight: 700; font-size: 15px; border-radius: 999px;
-  box-shadow: 0 12px 30px rgba(241, 90, 36, 0.4);
+  box-shadow: 0 12px 30px rgba(26, 86, 219, 0.4);
   transition: transform 0.15s, background 0.2s;
 }
-.floating-cta:hover { background: #FFF1E8; transform: translateY(-2px); }
+.floating-cta:hover { background: #EAF0FE; transform: translateY(-2px); }
 
 /* ---------- Reveal ---------- */
 .reveal { opacity: 0; transform: translateY(22px); transition: opacity 0.6s ease, transform 0.6s ease; }
