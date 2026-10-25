@@ -527,5 +527,4 @@ button.btn-ghost { cursor: pointer; }
   .svc-grid { gap: 28px; }
   .cta-inner { padding: 56px 20px; }
   .footer-grid { grid-template-columns: 1fr; gap: 28px; }
-  .floating-cta { right: 16px; bottom: 16px; padding: 12px 20px; }
 }
