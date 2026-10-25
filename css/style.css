@@ -298,14 +298,14 @@ button.btn-ghost { cursor: pointer; }
 }
 .svc-aside {
   position: relative; overflow: hidden;
-  background: linear-gradient(160deg, #2563EB 0%, #123E9E 100%);
-  border: 1px solid rgba(241, 90, 36, 0.4);
+  background: linear-gradient(150deg, #4A80F5 0%, #1A56DB 46%, #0E3BA3 100%);
+  border: 1px solid rgba(255, 255, 255, 0.65);
   border-radius: var(--radius); padding: 34px 30px;
-  box-shadow: 0 24px 50px rgba(16, 55, 140, 0.28);
+  box-shadow: 0 24px 50px rgba(16, 55, 140, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.35);
 }
 .svc-aside::before {
   content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px;
-  background: linear-gradient(90deg, var(--gold), rgba(241, 90, 36, 0));
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0));
 }
 .svc-aside::after {
   content: ""; position: absolute; right: -60px; top: -60px; width: 190px; height: 190px;
