@@ -88,7 +88,7 @@ document.querySelectorAll(".share-btn").forEach((btn) => {
 });
 
 // 상담 폼: 구글시트 기록 + 관리자 메일 발송 (Apps Script 웹앱)
-const CONSULT_ENDPOINT = ""; // 배포된 Apps Script 웹 앱 URL(.../exec)
+const CONSULT_ENDPOINT = "https://script.google.com/macros/s/AKfycbzSbTHYkgkR6OU6KStWOex3qAQAvyS7Om8VYtsODXTPoCAIvMkiXkDz25sZKCKHAQthbA/exec";
 const form = document.querySelector("#consult-form");
 if (form) {
   form.addEventListener("submit", async (e) => {
