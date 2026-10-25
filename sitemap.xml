@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://www.pro-nex.co.kr/about.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url>
-    <loc>https://www.pro-nex.co.kr/ci.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
+  <url><loc>https://www.pro-nex.co.kr/ci.html</loc><lastmod>2026-10-25</lastmod></url>
   <url><loc>https://www.pro-nex.co.kr/cert-disabled.html</loc><lastmod>2026-10-25</lastmod></url>
   <url><loc>https://www.pro-nex.co.kr/cert-innobiz.html</loc><lastmod>2026-10-25</lastmod></url>
   <url><loc>https://www.pro-nex.co.kr/cert-iso.html</loc><lastmod>2026-10-25</lastmod></url>

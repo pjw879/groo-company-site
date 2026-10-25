@@ -1,34 +1,46 @@
-# 프로넥스 경영자문그룹 (Pronex Advisory Group)
+# 프로넥스경영자문그룹 (PRONEX MANAGEMENT CONSULTING GROUP)
 
-> 운영사: 그루컴퍼니(GROO COMPANY). 중소기업인증과 재무컨설팅을 수행하는 한국의 컨설팅 전문회사. 인증·재무 분야 10년 이상 전문가들이 기업 진단부터 실행, 사후관리까지 원스톱으로 지원합니다. 첫 상담은 무료입니다.
+> 운영사: 그루컴퍼니(GROO COMPANY). 정책자금·기업인증·정부 R&D·재무전략을 원스톱으로 자문하는 한국의 전략형 경영컨설팅 그룹. 인증·자금·R&D·재무 전 분야 10년 이상 실무 전문가들이 진단 → 전략 → 실행 → 관리의 4단계로 직접 수행합니다. 브랜드 슬로건: "기업의 미래를 먼저 읽고, 성공의 길을 설계합니다." 첫 상담(기업 성장진단)은 무료입니다.
 
-## 서비스 분야
+## 회사소개
+- 프로넥스 소개 (/about.html): 전문가 그룹·자문 철학 소개
+- 브랜드 아이덴티티 (/ci.html): 프로메테우스 설화 기반 CI — PRO(선견지명·전문성) + NEX(다음 단계 도약), 네이비·블루·오렌지 컬러 시스템
 
-### 기업인증 (/cert.html)
-- 기업부설연구소·연구개발전담부서 (/cert-lab.html): 연구개발비 세액공제 25%
-- 벤처기업 인증 (/cert-venture.html): 법인세 50% 감면, 상장 우대
-- 이노비즈·메인비즈 인증 (/cert-innobiz.html, /cert-mainbiz.html): 보증·금리 우대
-- 여성기업 확인 (/cert-woman.html): 공공기관 우선구매
-- 소재·부품·장비 전문기업 (/cert-material.html), 뿌리기업 확인 (/cert-root.html)
-- 병역특례 지정업체 (/cert-military.html), 장애인표준사업장 (/cert-disabled.html)
-- ISO 인증 (/cert-iso.html), 중대재해처벌법 대응 ISO 45001 (/cert-safety.html)
+## 기업인증 (/cert.html)
+- 기업부설연구소·연구개발전담부서 (/cert-lab.html): 연구·인력개발비 세액공제(중소기업 25%)의 출발점, 설립 로드맵·요건·서류 안내
+- 벤처기업 인증 (/cert-venture.html): 혁신성장·연구개발·투자 유형별 전략, 창업벤처 세제감면
+- 이노비즈 인증 (/cert-innobiz.html): 기술혁신형 중소기업, 자가진단·현장평가 대응
+- 메인비즈 인증 (/cert-mainbiz.html): 경영혁신형 인증, 서비스·유통업 대안 경로
+- 여성기업 확인 (/cert-woman.html): 공공조달 의무구매·수의계약 우대
+- 소재·부품·장비 전문기업 (/cert-material.html): 소부장 매출 50% 기준, 전용 R&D 연계
+- 뿌리기업 확인 (/cert-root.html): 6대 기반공정+차세대 공정, 외국인력·병역특례 우대
+- 병역특례 지정업체 (/cert-military.html): 전문연구·산업기능요원, 연구소 선행 요건
+- 장애인표준사업장 (/cert-disabled.html): 무상지원금·세제 혜택, 직무 설계 중심
+- ISO 인증 (/cert-iso.html): 9001/14001/45001/27001 규격 선택 전략
+- 중대재해처벌법 대응 ISO 45001 (/cert-safety.html): 안전보건관리체계 구축·이행 입증
 
-### 정책자금 (/fund.html)
-- 소상공인 신용보증재단 (/fund-local.html), 신용보증기금 (/fund-kodit.html)
-- 기술보증기금 (/fund-kibo.html), 중소벤처기업진흥공단 (/fund-kosmes.html)
+## 정책자금 (/fund.html)
+- 소상공인 신용보증재단 (/fund-local.html): 일반·특례보증, 소상공인 자금 조달
+- 신용보증기금 (/fund-kodit.html): 성장기업 운전·시설자금 보증
+- 기술보증기금 (/fund-kibo.html): 기술평가 기반 보증, 기술사업계획서 대응
+- 중소벤처기업진흥공단 (/fund-kosmes.html): 정부 직접대출, 성장 단계별 정책자금
 
-### 지원사업 (/support.html)
-- 바우처 (/support-voucher.html), 사업화 지원 (/support-commercial.html), R&D (/support-rnd.html)
-- 2027 정부 R&D 예산안 개요 (/support-rnd2027.html): 39.5조 원 역대 최대 분석
+## R&D·사업화 (/support.html)
+- 바우처 지원사업 (/support-voucher.html): 수출·데이터·제조혁신 바우처 설계
+- 사업화 지원사업 (/support-commercial.html): 예비·초기·도약 창업사업화 트랙
+- 정부 R&D 지원사업 (/support-rnd.html): 과제 기획~협약 5~8개월 로드맵, 기획서·평가 대응
+- 2027 정부 R&D 예산안 개요 (/support-rnd2027.html): 중점 투자 분야와 중소기업 대응 전략
 
-### 재무컨설팅 (/finance.html)
-- 상속세 재원마련, 기업자산 사전상속, 상속·증여 플랜, 가업 SUCCESSION 플랜(가업상속공제 최대 600억 원), M&A
-- 가족법인 설립, 개인사업자 법인전환, 자사주 Clean-up(가지급금·가수금 정리), 신자본환원
-- 사내근로복지기금, 벤처투자 소득공제
+## 재무·경영자문 (/finance.html)
+- 승계·상속: 상속세 재원마련 플랜, 기업자산 사전상속(10년 주기 증여 설계), 상속·증여 플랜, 가업 SUCCESSION 플랜(가업상속공제), M&A·제3자 사업승계
+- 재무구조 개선: 가족법인 설립, 개인사업자 법인전환, 자사주 Clean-up(가지급금·가수금 정리), 신자본환원(이익잉여금 환원 설계)
+- 세제·복지: 사내근로복지기금, 벤처투자 소득공제
 
-### 특화 서비스 (/special.html)
-- 병의원 원스탑 서비스 (/special-clinic.html)
-- 미수채권관리·채권추심 (/special-debt.html)
+## 특화 서비스
+- 병의원 원스탑 서비스 (/special-clinic.html): 개원·세무·노무·성장 전환 설계
+- 미수채권관리·채권추심 (/special-debt.html): 내용증명 → 지급명령 → 강제집행 로드맵
 
 ## 상담
-- 무료상담 신청: https://www.pro-nex.co.kr/contact.html
+- 기업 성장진단 신청(무료): https://www.pro-nex.co.kr/contact.html
+- 각 상세페이지는 제도 개요, 대상·요건, 진행 절차, 전문가 심층 가이드(실무 쟁점·로드맵·준비 서류·전문가 TIP), FAQ로 구성되어 있습니다.
+- 제도 요건·혜택·수치는 법령과 공고 개정에 따라 변동될 수 있으며, 기업별 적용 가능 여부는 상담을 통해 검토합니다.
