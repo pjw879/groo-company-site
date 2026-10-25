@@ -1,0 +1,31 @@
+name: Deploy to Dothome
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  ftp-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: 112.175.184.82
+          username: pronex
+          password: ${{ secrets.DOTHOME_FTP_PW }}
+          server-dir: html/
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github/**
+            assets/hero-city.mp4
+            assets/hero-navy.mp4
+            assets/hero-orange.mp4
+            assets/hero-original.mp4
+            favicon.svg
+            README.md
