@@ -26,6 +26,28 @@ document.querySelectorAll(".gnb > li").forEach((li) => {
   });
 });
 
+// Esc로 모바일 메뉴·드롭다운 닫기 (접근성)
+document.addEventListener("keydown", (e) => {
+  if (e.key !== "Escape") return;
+  if (gnb && gnb.classList.contains("open")) {
+    gnb.classList.remove("open");
+    if (toggle) {
+      toggle.setAttribute("aria-expanded", "false");
+      toggle.focus();
+    }
+  }
+  const focused = document.activeElement;
+  if (focused && focused.closest && focused.closest(".gnb > li")) focused.blur();
+});
+
+// 스크롤 시 헤더 축약
+const headerEl = document.querySelector(".header");
+if (headerEl) {
+  const onScroll = () => headerEl.classList.toggle("scrolled", window.scrollY > 40);
+  window.addEventListener("scroll", onScroll, { passive: true });
+  onScroll();
+}
+
 // 스크롤 리빌 (reduced motion 존중)
 const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 if (!reduce && "IntersectionObserver" in window) {
