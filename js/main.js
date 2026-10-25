@@ -87,16 +87,36 @@ document.querySelectorAll(".share-btn").forEach((btn) => {
   });
 });
 
-// 상담 폼 (임시: 메일 연동 전 안내 메시지)
+// 상담 폼: 구글시트 기록 + 관리자 메일 발송 (Apps Script 웹앱)
+const CONSULT_ENDPOINT = ""; // 배포된 Apps Script 웹 앱 URL(.../exec)
 const form = document.querySelector("#consult-form");
 if (form) {
-  form.addEventListener("submit", (e) => {
+  form.addEventListener("submit", async (e) => {
     e.preventDefault();
     const msg = form.querySelector(".form-msg");
-    if (msg) {
-      msg.style.display = "block";
-      msg.textContent = "상담 신청이 접수되었습니다. 영업일 기준 1일 이내에 연락드리겠습니다.";
+    const btn = form.querySelector('button[type="submit"]');
+    const show = (text) => {
+      if (msg) {
+        msg.style.display = "block";
+        msg.textContent = text;
+      }
+    };
+    if (CONSULT_ENDPOINT) {
+      if (btn) btn.disabled = true;
+      show("접수 중입니다...");
+      try {
+        const data = new URLSearchParams(new FormData(form));
+        await fetch(CONSULT_ENDPOINT, { method: "POST", mode: "no-cors", body: data });
+        show("상담 신청이 접수되었습니다. 영업일 기준 1일 이내에 연락드리겠습니다.");
+        form.reset();
+      } catch (err) {
+        show("일시적인 오류로 접수에 실패했습니다. 전화로 문의해 주세요.");
+      } finally {
+        if (btn) btn.disabled = false;
+      }
+    } else {
+      show("상담 신청이 접수되었습니다. 영업일 기준 1일 이내에 연락드리겠습니다.");
+      form.reset();
     }
-    form.reset();
   });
 }
